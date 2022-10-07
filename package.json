@@ -1,7 +1,7 @@
 {
   "name": "todos-git",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project is meant for a docker container.",
   "main": "server.js",
   "scripts": {
     "devStart": "nodemon server.js",
@@ -11,8 +11,8 @@
     "type": "git",
     "url": "git+https://github.com/Markhan1/MongoDB-Server-Todos.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["server", "mongodb", "express", "node", "mern_stack"],
+  "author": "Markhan1",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Markhan1/MongoDB-Server-Todos/issues"
