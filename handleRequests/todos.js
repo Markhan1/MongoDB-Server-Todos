@@ -32,6 +32,18 @@ todos
         console.log(`Retrieved one document by id: ${req.params.id}`);
         res.json(result);
       });
+  })
+
+  // This section helps you create a new record
+  .post("/add", (req, res) => {
+    let db_connect = dbo.getDB();
+    let newDoc = {
+      name: req.body.name,
+      text: req.body.text,
+      status: req.body.status,
+      tags: req.body.tags || [],
+      date: req.body.tags || null,
+    }
   });
 
 module.exports = todos;
