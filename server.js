@@ -5,6 +5,7 @@ const cors = require("cors");
 const app = express();
 app.use(express.json());
 app.use(cors());
+app.use("/todos", require("./handleRequests/todos"));
 
 const dbo = require("./db/conn");
 
