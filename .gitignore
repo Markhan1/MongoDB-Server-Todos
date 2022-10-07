@@ -1,5 +1,14 @@
-# environment
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# misc
 config.env
-.env
+.DS_Store
 .env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
 env
