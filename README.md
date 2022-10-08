@@ -4,7 +4,7 @@ This App is meant for a docker container.
 
 ### After cloning this repo:
 
-1. Go to cloned directory, open console and type: npm install
+1. Go to repo directory, open console and type: "npm install" it will install all dependencies.
 
 2. Create a environment file called: "config.env" and add two variables "ATLAS_URI", "PORT". 
 ATLAS_URI has the uri link of your mongodb atlas account. 
