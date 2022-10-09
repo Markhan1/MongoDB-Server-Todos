@@ -56,7 +56,7 @@ todos
       text: req.body.text,
       status: req.body.status,
       tags: req.body.tags || [],
-      date: req.body.tags || dateTime,
+      date: req.body.date || dateTime,
     };
     db_connect
       .collection(collec)
